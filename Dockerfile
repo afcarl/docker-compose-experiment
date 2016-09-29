@@ -1,0 +1,7 @@
+FROM ruby:2.3
+
+ENV WORKDIR /app
+RUN mkdir -p $WORKDIR
+WORKDIR $WORKDIR
+COPY . $WORKDIR
+CMD ./process1.sh

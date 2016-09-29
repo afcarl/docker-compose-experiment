@@ -1,0 +1,4 @@
+experiment:
+  build: .
+  command: ./process1.sh
+
